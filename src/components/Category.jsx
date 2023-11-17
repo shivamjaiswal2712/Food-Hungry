@@ -3,7 +3,7 @@ import React from "react";
 
 const Category = ({ item }) => {
     const { id, categoryTitle, subtitle, description, img } = item;
-    const imagesrc = require(``).default;
+    const imagesrc = require(`../assets/${img}`).default;
     const url = categoryTitle.toLowerCase();
 
     return (

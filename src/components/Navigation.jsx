@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import food from "../assets/menu-8.jpg";
 
 const Navigation = () => {
     return (
@@ -6,7 +7,7 @@ const Navigation = () => {
             <ul>
                 <Link to="/">
                     <li>
-                        <img className="logo" src="" alt="background" />
+                        <img className="logo" src={food} alt="background" />
                     </li>
                 </Link>
 

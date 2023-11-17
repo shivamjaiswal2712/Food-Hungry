@@ -1,26 +1,29 @@
-// import { Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Button from './components/Button';
-// import Input from './components/Input';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
-// import Navigation from './components/Navigation';
-// import Lists from './components/Lists';
-// import Links from './components/Links';
+import Navigation from './components/Navigation';
+import Home from './pages/home/Home';
+import CategoryPage from './pages/category/CategoryPage';
+import Contact from './pages/contact/Contact';
+import ProductPage from './pages/productPage/ProductPage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Button />
-        {/* <Input /> */}
-        {/* <Links /> */}
-        {/* <Lists /> */}
-        {/* <Navigation /> */}
-        <ScrollToTop />
+    <BrowserRouter>
+      <div className='App'>
+        <Navigation />
+        <ScrollToTop>
+          <Routes>
+            <Route path='/' exact Component={Home} />
+            <Route path='/contact' exact Component={Contact} />
+            <Route path='/:category/' exact Component={CategoryPage} />
+            <Route path='/:category/:id' exact Component={ProductPage} />
+          </Routes>
+        </ScrollToTop>
         <Footer />
-      </header>
-    </div>
+      </div>
+    </BrowserRouter>
   );
 }
 
