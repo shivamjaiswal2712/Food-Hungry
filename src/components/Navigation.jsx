@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import food from "../assets/menu-8.jpg";
+import food from "../assets/logo.jpeg";
 
 const Navigation = () => {
     return (

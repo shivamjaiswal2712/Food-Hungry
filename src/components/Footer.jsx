@@ -1,11 +1,14 @@
 import React from "react";
+import Lists from "./Lists";
+import Links from "./Links";
+import { restaurant } from "../data/restaurantData";
 
 const Footer = () => {
-    // const socials = restaurant.links;
+    const socials = restaurant.links;
 
     return(
         <footer className="footer">
-            {/* <List list={socials} Component={Link} /> */}
+            <Lists list={socials} Component={Links} />
             <p>Copyright @ 2023 Food-Hungry</p>
         </footer>
     );

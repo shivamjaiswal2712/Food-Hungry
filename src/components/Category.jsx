@@ -3,12 +3,12 @@ import React from "react";
 
 const Category = ({ item }) => {
     const { id, categoryTitle, subtitle, description, img } = item;
-    const imagesrc = require(`../assets/${img}`).default;
+    const imageSrc = require(`../assets/categories/${img}`).default;
     const url = categoryTitle.toLowerCase();
 
     return (
         <article className="category-card" key={id}>
-            <img src={imagesrc} alt="" />
+            <img src={imageSrc} alt="delicious food" />
             <div className="text-box">
                 <h2 className="category-subtitle">{subtitle}</h2>
                 <h1 className="category-name">{categoryTitle}</h1>
