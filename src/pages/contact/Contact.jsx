@@ -4,7 +4,7 @@ import Button from "../../components/Button";
 
 const Contact = () => {
     const hours = restaurant.openingHours;
-    const address = restaurant.adress;
+    const address = restaurant.address;
 
     const openingHours = hours.map((item) => (
         <li key={item.id}>
