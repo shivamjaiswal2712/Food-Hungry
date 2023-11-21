@@ -12,7 +12,7 @@ const ProductPage = () => {
     const getcategory = () => {
         const products = productData.filter((item) => {
             return item.categoryTitle.toLowerCase() === category.toLowerCase();
-        })[0].product;
+        })[0].products;
         return products;
     }
 

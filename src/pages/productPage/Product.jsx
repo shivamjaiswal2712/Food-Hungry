@@ -4,11 +4,11 @@ import NutritionFacts from "./NutritionFacts";
 
 const Product = ({ product }) => {
     const { name, fullDescription, img, ingredientsList, nutritionalInfo } = product;
-    const imagesrc = require(`../../assets/${img}`).default;
+    const imageSrc = require(`../../assets/foods/${img}`).default;
 
     return(
         <section className="product">
-            <img className="product-img" src={imagesrc} alt="delicious food" />
+            <img className="product-img" src={imageSrc} alt="delicious food" />
             <section className="product-info">
                 <div className="text-box">
                     <div className="title">

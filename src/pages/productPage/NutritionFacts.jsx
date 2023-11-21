@@ -1,4 +1,6 @@
-const NutritionFacts = ({ nutritionalInfo }) => {
+import React from "react";
+
+const NutritionFacts = () => {
     return(
         <div className="performance-facts">
             <header className="performance-facts_header">
@@ -41,7 +43,7 @@ const NutritionFacts = ({ nutritionalInfo }) => {
 
                     <tr>
                         <td className="blank-cell"></td>
-                        <th>saturated Fat 0g</th>
+                        <th>saturated Fat 9g</th>
                         <td>
                             <b>22%</b>
                         </td>

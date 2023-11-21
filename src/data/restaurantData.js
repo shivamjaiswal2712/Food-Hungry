@@ -32,14 +32,14 @@ export const restaurant = {
             value: "India",
         },
     ],
-    links: [
-        {
-            id: 1,
-            link: "https://github.com/shivamjaiswal2712/",
-        },
-        {
-            id: 2,
-            link: "https://www.linkedin.com/in/shivam-jaiswal-2ba127226/",
-        },
-    ],
+    // links: [
+    //     {
+    //         id: 1,
+    //         link: "https://github.com/shivamjaiswal2712/",
+    //     },
+    //     {
+    //         id: 2,
+    //         link: "https://www.linkedin.com/in/shivam-jaiswal-2ba127226/",
+    //     },
+    // ],
 };

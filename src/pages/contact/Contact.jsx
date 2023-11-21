@@ -1,6 +1,7 @@
 import { restaurant } from "../../data/restaurantData";
 import BookingForm from "./BookingForm";
 import Button from "../../components/Button";
+import contactImg from "../../assets/phone-call.jpg";
 
 const Contact = () => {
     const hours = restaurant.openingHours;
@@ -20,7 +21,7 @@ const Contact = () => {
 
     return (
         <section className="contact">
-            <img src="contactImg" alt="man putting a pizza  in wood oven" />
+            <img src={contactImg} alt="man putting a pizza in wood oven" />
             <div className="contact-content">
                 <div className="text-box">
                     <div className="title">
