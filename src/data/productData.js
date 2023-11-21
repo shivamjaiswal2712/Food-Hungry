@@ -3,12 +3,12 @@ export const productData = [
         id: "cat-1",
         categoryTitle: "Pizzas",
         subtitle: "Planet Saving",
-        // img: "home.jpg",
+        img: "home.jpg",
         description: "our dough is made fresh daily and matured for 48 hours .",
         products: [
 			{
 				id: "1",
-				img: "pizza-1.png",
+				img: "menu-2.jpg",
 				name: "MARGHERITA ONE",
 				shortDescription: "Artisanal typical italian stamp pizza",
 				fullDescription:
@@ -115,7 +115,7 @@ export const productData = [
 			},
 			{
 				id: "2",
-				img: "pizza-2.png",
+				img: "menu-7.jpg",
 				name: "ONE WITH THE PESTO",
 				shortDescription: "Homemade pesto base, you have to try it",
 				fullDescription:
@@ -221,7 +221,7 @@ export const productData = [
 			},
 			{
 				id: "3",
-				img: "pizza-3.png",
+				img: "menu-10.jpg",
 				name: "PARMIGIANA PARTY ONE",
 				shortDescription:
 					"The one and and only show stopper, our parmigiana party.",
@@ -337,7 +337,7 @@ export const productData = [
 			},
 			{
 				id: "4",
-				img: "pizza-4.png",
+				img: "menu-2.jpg",
 				name: "ONE WITH THE TRUFFLE",
 				shortDescription:
 					"Black truffle base with mozzarella, pulled porketta and mixed wild forest mushrooms.",
@@ -452,13 +452,13 @@ export const productData = [
 		id: "cat-2",
 		categoryTitle: "Desserts",
 		subtitle: "Inclusive",
-		img: "menu-4.jpg",
+		img: "drinks background.jpg",
 		description:
 			"In a nutshell, we think that everyone should be able to enjoy great desserts regardless of allergies and dietary restrictions.That means no more nutshells, and it also means ensuring plentiful gluten free options.",
 		products: [
 			{
 				id: "1",
-				img: "dessert-1.png",
+				img: "menu-5.jpg",
 				name: "SALTED CARAMEL BROWNIE",
 				shortDescription:
 					"Indulgent chocolate caramel brownie with a scoop of ice cream.",
@@ -573,7 +573,7 @@ export const productData = [
 			},
 			{
 				id: "2",
-				img: "dessert-2.png",
+				img: "menu-11.jpg",
 				name: "Chocolate One",
 				shortDescription: "Chocolate pizza covered in our creamy homemade...",
 				fullDescription:
