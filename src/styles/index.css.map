@@ -1,0 +1,21 @@
+{
+    "version":3,
+    "sources":[
+        "index.scss",
+        "base/_base.scss",
+        "abstracts/_variables.scss",
+        "base/_typography.scss",
+        "template/_template.scss",
+        "components/_button.scss",
+        "abstracts/_mixins.scss",
+        "components/_nav.scss",
+        "components/_footer.scss",
+        "components/_nutritionFacts.scss",
+        "../pages/home/_home.scss",
+        "../pages/category/_categoryPage.scss",
+        "../pages/ProductPage/_productPage.scss",
+        "../pages/contact/_contact.scss"
+        ],
+        "names":[],
+        "file":"index.css"
+    }

@@ -5,7 +5,7 @@ const Button = ({ onClick, children, theme}) => {
         <button className={"btn btn-" + theme} type="button" onClick={onClick}>
             {children}
         </button>
-    )
+    );
 }
 
 export default Button;

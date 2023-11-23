@@ -3,12 +3,12 @@ export const productData = [
         id: "cat-1",
         categoryTitle: "Pizzas",
         subtitle: "Planet Saving",
-        img: "home.jpg",
-        description: "our dough is made fresh daily and matured for 48 hours .",
+        img: "pizzas.jpg",
+        description: "our dough is made fresh daily and matured for 48 hours using an organic wholegrain flour. We use a range of organic toppings, including our Italian tomatoes and our mozzarella. Choose from wholegrain, hemp, or Freedom (gluten-free) bases.",
         products: [
 			{
 				id: "1",
-				img: "menu-2.jpg",
+				img: "pizza1.jpeg",
 				name: "MARGHERITA ONE",
 				shortDescription: "Artisanal typical italian stamp pizza",
 				fullDescription:
@@ -115,7 +115,7 @@ export const productData = [
 			},
 			{
 				id: "2",
-				img: "menu-7.jpg",
+				img: "pizzas2.jpg",
 				name: "ONE WITH THE PESTO",
 				shortDescription: "Homemade pesto base, you have to try it",
 				fullDescription:
@@ -221,7 +221,7 @@ export const productData = [
 			},
 			{
 				id: "3",
-				img: "menu-10.jpg",
+				img: "pizzas3.jpg",
 				name: "PARMIGIANA PARTY ONE",
 				shortDescription:
 					"The one and and only show stopper, our parmigiana party.",
@@ -337,7 +337,7 @@ export const productData = [
 			},
 			{
 				id: "4",
-				img: "menu-2.jpg",
+				img: "pizzas4.jpg",
 				name: "ONE WITH THE TRUFFLE",
 				shortDescription:
 					"Black truffle base with mozzarella, pulled porketta and mixed wild forest mushrooms.",
@@ -452,13 +452,13 @@ export const productData = [
 		id: "cat-2",
 		categoryTitle: "Desserts",
 		subtitle: "Inclusive",
-		img: "drinks background.jpg",
+		img: "desserts.jpeg",
 		description:
 			"In a nutshell, we think that everyone should be able to enjoy great desserts regardless of allergies and dietary restrictions.That means no more nutshells, and it also means ensuring plentiful gluten free options.",
 		products: [
 			{
 				id: "1",
-				img: "menu-5.jpg",
+				img: "desserts1.jpeg",
 				name: "SALTED CARAMEL BROWNIE",
 				shortDescription:
 					"Indulgent chocolate caramel brownie with a scoop of ice cream.",
@@ -573,7 +573,7 @@ export const productData = [
 			},
 			{
 				id: "2",
-				img: "menu-11.jpg",
+				img: "desserts2.jpeg",
 				name: "Chocolate One",
 				shortDescription: "Chocolate pizza covered in our creamy homemade...",
 				fullDescription:
@@ -682,7 +682,7 @@ export const productData = [
 			},
 			{
 				id: "3",
-				img: "dessert-3.png",
+				img: "desserts3.jpg",
 				name: "LEMON CHEESECAKE",
 				shortDescription: "Delicate lemon cheesecake",
 				fullDescription:
@@ -796,7 +796,7 @@ export const productData = [
 			},
 			{
 				id: "4",
-				img: "dessert-4.png",
+				img: "desserts4.jpg",
 				name: "GELATO",
 				shortDescription: "Deliciously locally made gelato",
 				fullDescription: "gelato",
@@ -908,13 +908,13 @@ export const productData = [
 		id: "cat-3",
 		categoryTitle: "Drinks",
 		subtitle: "Classic cuisine inovated",
-		img: "menu-1.jpg",
+		img: "drinks.jpeg",
 		description:
 			"Our food is plant-based, mostly organic and local.From unique Kombucha, to the frutiest of fruity juices and smoothies. If you are feeling a little more jolly we do also offer an extensive selection of local brews of different sorts",
 		products: [
 			{
 				id: "1",
-				img: "drink-1.png",
+				img: "drinks1.jpeg",
 				name: "Lemony Lemonade",
 				shortDescription: "lemonade",
 				fullDescription: "lemons or limes",
@@ -1012,7 +1012,7 @@ export const productData = [
 			},
 			{
 				id: "2",
-				img: "drink-2.png",
+				img: "drinks2.jpeg",
 				name: "Kick Ass Carrot",
 				shortDescription: "Cold pressed juice",
 				fullDescription: "",
@@ -1110,7 +1110,7 @@ export const productData = [
 			},
 			{
 				id: "3",
-				img: "drink-3.png",
+				img: "drinks3.jpeg",
 				name: "Ginger & Lime Kombucha",
 				shortDescription: "kombucha stuff",
 				fullDescription: "carbonated bubbles",
@@ -1213,7 +1213,7 @@ export const productData = [
 			},
 			{
 				id: "4",
-				img: "drink-4.png",
+				img: "drinks4.jpeg",
 				name: "Daily Greens",
 				shortDescription: "Cold pressed juice",
 				fullDescription: "all the greens we can find",

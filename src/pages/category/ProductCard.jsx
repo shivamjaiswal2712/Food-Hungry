@@ -1,6 +1,6 @@
 import { useLocation, useNavigate } from "react-router-dom";
 
-const ProductCard = (item) => {
+const ProductCard = ({item}) => {
     const { id, name, shortDescription, img } = item;
     const imageSrc = require(`../../assets/foods/${img}`).default;
     const navigate = useNavigate();
@@ -10,7 +10,7 @@ const ProductCard = (item) => {
     return(
         <li>
             <article className="product-card">
-                <button onClick={() => navigate.push(url)}>
+                <button onClick={() => navigate(url)}>
                     <img className="product-img" src={imageSrc} alt="delicious food" />
                     <div className="text-box">
                         <h3 className="product-the">The</h3>

@@ -49,7 +49,7 @@ const Contact = () => {
                 <section className="address">
                     <h2 className="oleo">Address</h2>
                     <ul>{fullAddress}</ul>
-                    <img src="map" alt="man putting a pizza in wood oven" />
+                    {/* <img src="map" alt="man putting a pizza in wood oven" /> */}
                 </section>
             </div>
         </section>
