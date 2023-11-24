@@ -1,0 +1,23 @@
+.footer {
+	background-color: $secondary;
+	height: 7rem;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-items: center;
+	flex-direction: column;
+	margin: auto;
+	justify-content: center;
+	padding: $space-medium;
+	ul {
+		display: flex;
+		justify-content: center;
+		li {
+			padding: $space-x-small;
+		}
+	}
+	p {
+		color: $white;
+		padding: 0.8rem;
+	}
+}

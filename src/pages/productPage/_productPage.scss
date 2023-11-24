@@ -1,0 +1,50 @@
+.product-page{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    .product{
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+    }
+    img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        overflow: hidden;
+        max-height: 500px;
+        position: relative;
+        margin-top: 2rem;
+        max-width: 1024px;
+    }
+    .product-info{
+        display: grid;
+        padding: 0 $space-large;
+        justify-content: center;
+        max-width: 80%;
+        margin: $space-small auto;
+        section{
+            display: grid;
+            margin: $space-medium auto;
+            h2{
+                margin-bottom: $space-x-small;
+            }
+        }
+        .text-box h1{
+            margin-bottom: 1rem;
+        }
+        .ingredients{
+            ul{
+                list-style: circle;
+                padding: 0 $space-medium;
+            }
+        }
+        .btn{
+            max-width: 80%;
+            margin: $space-medium auto;
+            padding: $space-small;
+            width: auto
+            ;
+        }
+    }
+}

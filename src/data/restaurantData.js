@@ -17,7 +17,7 @@ export const restaurant = {
     address: [
         {
             id: "Street",
-            value: "vice City Colony 04",
+            value: "04 vice City Colony Main Road",
         },
         {
             id: "Pin Code",

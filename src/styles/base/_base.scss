@@ -1,0 +1,38 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: $roboto;
+	color: $secondary;
+}
+
+html {
+	scroll-behavior: smooth;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+section {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+article,
+nav,
+section {
+	display: block;
+}
+ol,
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}

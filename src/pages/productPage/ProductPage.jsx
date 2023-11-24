@@ -28,11 +28,11 @@ const ProductPage = () => {
     return(
         <section className="product-page">
             <Product key={product.id} product={product} />
-            <Button onClick={() => navigate.goBack()} theme={"primary"}>
-                Return to {category}
+            <Button onClick={() => navigate('/')} theme={"primary"}>
+                Return to Home
             </Button>
         </section>
     );
 }
 
-export default ProductPage;
+export default ProductPage; 
