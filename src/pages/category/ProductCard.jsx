@@ -1,8 +1,8 @@
 import { useLocation, useNavigate } from "react-router-dom";
 
-const ProductCard = ({item}) => {
+const ProductCard = ({ item }) => {
     const { id, name, shortDescription, img } = item;
-    const imageSrc = require(`../../assets/foods/${img}`).default;
+    const imageSrc = require(`../../assets/foods/${img}`);
     const navigate = useNavigate();
     const category = useLocation().pathname.toLowerCase();
     const url = `../../${category}/${id}`;

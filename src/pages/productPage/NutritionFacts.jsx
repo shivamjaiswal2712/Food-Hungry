@@ -1,6 +1,6 @@
 import React from "react";
 
-const NutritionFacts = () => {
+const NutritionFacts = ({nutritionalInfo}) => {
     return(
         <div className="performance-facts">
             <header className="performance-facts_header">

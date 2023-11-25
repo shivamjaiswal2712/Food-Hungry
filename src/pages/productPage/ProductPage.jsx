@@ -9,7 +9,7 @@ const ProductPage = () => {
     const category = url.category;
     const productId = url.id.toLowerCase();
 
-    const getcategory = () => {
+    const getCategory = () => {
         const products = productData.filter((item) => {
             return item.categoryTitle.toLowerCase() === category.toLowerCase();
         })[0].products;
@@ -17,7 +17,7 @@ const ProductPage = () => {
     }
 
     const getProduct = () => {
-        const productToDisplay = getcategory().filter((item) => {
+        const productToDisplay = getCategory().filter((item) => {
             return item.id === productId;
         })[0];
         return productToDisplay;

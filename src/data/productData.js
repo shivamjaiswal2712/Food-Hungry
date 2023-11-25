@@ -1,11 +1,12 @@
 export const productData = [
-    {
-        id: "cat-1",
-        categoryTitle: "Pizzas",
-        subtitle: "Planet Saving",
-        img: "pizzas.jpg",
-        description: "our dough is made fresh daily and matured for 48 hours using an organic wholegrain flour. We use a range of organic toppings, including our Italian tomatoes and our mozzarella. Choose from wholegrain, hemp, or Freedom (gluten-free) bases.",
-        products: [
+	{
+		id: "cat-1",
+		categoryTitle: "Pizzas",
+		subtitle: "Planet Saving",
+		img: "pizzas.jpg",
+		description:
+			"Our dough is made fresh daily and matured for 48 hours using an organic wholegrain flour. We use a range of organic toppings, including our Italian tomatoes and our mozzarella. Choose from wholegrain, hemp, or Freedom (gluten-free) bases.",
+		products: [
 			{
 				id: "1",
 				img: "pizza1.jpeg",
