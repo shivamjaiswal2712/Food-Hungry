@@ -7,7 +7,7 @@
     color:#425959
 }
 html{
-    scroll-behavior:smooth;
+    /* scroll-behavior:smooth; */
     align-items:center;
     width:100vw;
     height:100vh
@@ -601,9 +601,9 @@ footer{
         padding:.6rem;
         padding-left:1.5rem;
         padding-right:1.5rem;
-        -webkit-text-size-adjust:100%;
+        /* -webkit-text-size-adjust:100%;
         -moz-text-size-adjust:100%;
-        text-size-adjust:100%;
+        text-size-adjust:100%; */
         margin:.2rem;
     }
 /* sourceMappingURL=index.css.map */
