@@ -1,7 +1,7 @@
 import { restaurant } from "../../data/restaurantData";
 import BookingForm from "./BookingForm";
 import Button from "../../components/Button";
-import contactImg from "../../assets/phone-call.jpg";
+import contactImg from "../../assets/foodie-background.jpg";
 
 const Contact = () => {
     const hours = restaurant.openingHours;

@@ -116,7 +116,7 @@ export const productData = [
 			},
 			{
 				id: "2",
-				img: "pizzas2.jpg",
+				img: "pizzas2.jpeg",
 				name: "ONE WITH THE PESTO",
 				shortDescription: "Homemade pesto base, you have to try it",
 				fullDescription:
@@ -338,7 +338,7 @@ export const productData = [
 			},
 			{
 				id: "4",
-				img: "pizzas4.jpg",
+				img: "pizzas4.jpeg",
 				name: "ONE WITH THE TRUFFLE",
 				shortDescription:
 					"Black truffle base with mozzarella, pulled porketta and mixed wild forest mushrooms.",
@@ -683,7 +683,7 @@ export const productData = [
 			},
 			{
 				id: "3",
-				img: "desserts3.jpg",
+				img: "desserts3.jpeg",
 				name: "LEMON CHEESECAKE",
 				shortDescription: "Delicate lemon cheesecake",
 				fullDescription:
@@ -797,7 +797,7 @@ export const productData = [
 			},
 			{
 				id: "4",
-				img: "desserts4.jpg",
+				img: "desserts4.jpeg",
 				name: "GELATO",
 				shortDescription: "Deliciously locally made gelato",
 				fullDescription: "gelato",
@@ -909,7 +909,7 @@ export const productData = [
 		id: "cat-3",
 		categoryTitle: "Drinks",
 		subtitle: "Classic cuisine inovated",
-		img: "drinks.jpeg",
+		img: "drinks-cover.jpeg",
 		description:
 			"Our food is plant-based, mostly organic and local.From unique Kombucha, to the frutiest of fruity juices and smoothies. If you are feeling a little more jolly we do also offer an extensive selection of local brews of different sorts",
 		products: [

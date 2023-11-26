@@ -1,6 +1,7 @@
 import React from "react";
 
-const Input = ({ hook, autofocus, autocomplete, name, placeholder, type }) => {
+const Input = ({ hook, setting }) => {
+    const {autofocus, autocomplete, name, placeholder, type} = setting;
     const [state, setState] = hook;
 
     return(
