@@ -10,8 +10,8 @@ export const productData = [
 			{
 				id: "1",
 				img: "pizza1.jpeg",
-				name: "MARGHERITA ONE",
-				shortDescription: "Artisanal typical italian stamp pizza",
+				name: "MARGHERITA TAGLIO",
+				shortDescription: "Artisanal typical italian stamp pizza with black berry.",
 				fullDescription:
 					"Red tomato base, with our artisan, organic, rice based mozzarella, topped with basil leaves and extra virgin olive oil. This pizza might seem simple but it has a superb flavor",
 				ingredientList: [
@@ -53,7 +53,7 @@ export const productData = [
 					{
 						id: 3,
 						label: "Saturated Fat",
-						value: 3,
+						value: 33,
 					},
 					{
 						id: 4,
@@ -63,7 +63,7 @@ export const productData = [
 					{
 						id: 5,
 						label: "Cholesterol",
-						value: 0,
+						value: 10,
 					},
 					{
 						id: 6,
@@ -79,13 +79,13 @@ export const productData = [
 					{
 						id: 8,
 						label: "Dietary Fiber",
-						value: 7,
+						value: 27,
 					},
 
 					{
 						id: 9,
 						label: "Sugars",
-						value: 4,
+						value: 24,
 					},
 					{
 						id: 10,
@@ -117,8 +117,8 @@ export const productData = [
 			{
 				id: "2",
 				img: "pizzas2.jpeg",
-				name: "ONE WITH THE PESTO",
-				shortDescription: "Homemade pesto base, you have to try it",
+				name: "GREEK WITH THE PESTO",
+				shortDescription: "Homemade pesto base all with tomato and spicy slices.",
 				fullDescription:
 					"Homemade pesto base, with mozzarella, roasted courgettes, semi-dried tomatoes and parmesan. Our pesto is nut and gluten free.",
 				ingredientList: [
@@ -154,12 +154,12 @@ export const productData = [
 					{
 						id: 2,
 						label: "Total Fat",
-						value: 12,
+						value: 18,
 					},
 					{
 						id: 3,
 						label: "Saturated Fat",
-						value: 3,
+						value: 23,
 					},
 					{
 						id: 4,
@@ -169,7 +169,7 @@ export const productData = [
 					{
 						id: 5,
 						label: "Cholesterol",
-						value: 0,
+						value: 20,
 					},
 					{
 						id: 6,
@@ -185,13 +185,13 @@ export const productData = [
 					{
 						id: 8,
 						label: "Dietary Fiber",
-						value: 7,
+						value: 27,
 					},
 
 					{
 						id: 9,
 						label: "Sugars",
-						value: 4,
+						value: 14,
 					},
 					{
 						id: 10,
@@ -223,9 +223,9 @@ export const productData = [
 			{
 				id: "3",
 				img: "pizzas3.jpg",
-				name: "PARMIGIANA PARTY ONE",
+				name: "NEW PARMIGIANA PARTY CHEESE",
 				shortDescription:
-					"The one and and only show stopper, our parmigiana party.",
+					"The one and and only cheese lover with red sause chilly.",
 				fullDescription:
 					"This is our most famous and popular pizza. Red tomato base with smoked mozzarella, aubergine parmigiana, crumbled sausages, topped with a dusting of nutritional yeast. It sure is srumptious. ",
 				ingredientList: [
@@ -270,22 +270,22 @@ export const productData = [
 					{
 						id: 2,
 						label: "Total Fat",
-						value: 12,
+						value: 22,
 					},
 					{
 						id: 3,
 						label: "Saturated Fat",
-						value: 3,
+						value: 13,
 					},
 					{
 						id: 4,
 						label: "Trans Fat",
-						value: 0,
+						value: 24,
 					},
 					{
 						id: 5,
 						label: "Cholesterol",
-						value: 0,
+						value: 20,
 					},
 					{
 						id: 6,
@@ -301,13 +301,13 @@ export const productData = [
 					{
 						id: 8,
 						label: "Dietary Fiber",
-						value: 7,
+						value: 27,
 					},
 
 					{
 						id: 9,
 						label: "Sugars",
-						value: 4,
+						value: 25,
 					},
 					{
 						id: 10,
@@ -317,7 +317,7 @@ export const productData = [
 					{
 						id: 11,
 						label: "Vitamin A",
-						value: 10,
+						value: 14,
 					},
 					{
 						id: 12,
@@ -327,7 +327,7 @@ export const productData = [
 					{
 						id: 13,
 						label: "Vitamin C",
-						value: 10,
+						value: 18,
 					},
 					{
 						id: 14,
@@ -339,7 +339,7 @@ export const productData = [
 			{
 				id: "4",
 				img: "pizzas4.jpeg",
-				name: "ONE WITH THE TRUFFLE",
+				name: "STUFFED CRUST WITH TRUFFLE",
 				shortDescription:
 					"Black truffle base with mozzarella, pulled porketta and mixed wild forest mushrooms.",
 				fullDescription:
@@ -381,22 +381,22 @@ export const productData = [
 					{
 						id: 2,
 						label: "Total Fat",
-						value: 12,
+						value: 18,
 					},
 					{
 						id: 3,
 						label: "Saturated Fat",
-						value: 3,
+						value: 23,
 					},
 					{
 						id: 4,
 						label: "Trans Fat",
-						value: 0,
+						value: 20,
 					},
 					{
 						id: 5,
 						label: "Cholesterol",
-						value: 0,
+						value: 30,
 					},
 					{
 						id: 6,
@@ -412,13 +412,13 @@ export const productData = [
 					{
 						id: 8,
 						label: "Dietary Fiber",
-						value: 7,
+						value: 17,
 					},
 
 					{
 						id: 9,
 						label: "Sugars",
-						value: 4,
+						value: 19,
 					},
 					{
 						id: 10,
@@ -428,7 +428,7 @@ export const productData = [
 					{
 						id: 11,
 						label: "Vitamin A",
-						value: 10,
+						value: 16,
 					},
 					{
 						id: 12,
@@ -460,11 +460,11 @@ export const productData = [
 			{
 				id: "1",
 				img: "desserts1.jpeg",
-				name: "SALTED CARAMEL BROWNIE",
+				name: "RED CHEERY YOGURT",
 				shortDescription:
-					"Indulgent chocolate caramel brownie with a scoop of ice cream.",
+					"Indulgent chocolate caramel pink with a scoop of ice cream.",
 				fullDescription:
-					"Indulgent chocolate caramel brownie with a scoop of ice cream.",
+					"Indulgent chocolate caramel pink with a scoop of ice cream.",
 				ingredientList: [
 					{
 						id: "ingredient-1",
@@ -506,22 +506,22 @@ export const productData = [
 					{
 						id: 2,
 						label: "Total Fat",
-						value: 12,
+						value: 32,
 					},
 					{
 						id: 3,
 						label: "Saturated Fat",
-						value: 3,
+						value: 23,
 					},
 					{
 						id: 4,
 						label: "Trans Fat",
-						value: 0,
+						value: 10,
 					},
 					{
 						id: 5,
 						label: "Cholesterol",
-						value: 0,
+						value: 50,
 					},
 					{
 						id: 6,
@@ -537,13 +537,13 @@ export const productData = [
 					{
 						id: 8,
 						label: "Dietary Fiber",
-						value: 7,
+						value: 27,
 					},
 
 					{
 						id: 9,
 						label: "Sugars",
-						value: 4,
+						value: 54,
 					},
 					{
 						id: 10,
@@ -563,7 +563,7 @@ export const productData = [
 					{
 						id: 13,
 						label: "Vitamin C",
-						value: 10,
+						value: 30,
 					},
 					{
 						id: 14,
@@ -575,8 +575,8 @@ export const productData = [
 			{
 				id: "2",
 				img: "desserts2.jpeg",
-				name: "Chocolate One",
-				shortDescription: "Chocolate pizza covered in our creamy homemade...",
+				name: "Chocolate MALTATE",
+				shortDescription: "Chocolate pizza covered in our creamy homemade.",
 				fullDescription:
 					"Chocolate pizza covered in our creamy homemade sunflower seed chocolate spread, topped with white chocolate crumble and a scoop of ice cream.",
 				ingredientList: [
@@ -615,22 +615,22 @@ export const productData = [
 					{
 						id: 2,
 						label: "Total Fat",
-						value: 12,
+						value: 18,
 					},
 					{
 						id: 3,
 						label: "Saturated Fat",
-						value: 3,
+						value: 23,
 					},
 					{
 						id: 4,
 						label: "Trans Fat",
-						value: 0,
+						value: 10,
 					},
 					{
 						id: 5,
 						label: "Cholesterol",
-						value: 0,
+						value: 40,
 					},
 					{
 						id: 6,
@@ -646,13 +646,13 @@ export const productData = [
 					{
 						id: 8,
 						label: "Dietary Fiber",
-						value: 7,
+						value: 37,
 					},
 
 					{
 						id: 9,
 						label: "Sugars",
-						value: 4,
+						value: 64,
 					},
 					{
 						id: 10,
@@ -684,10 +684,10 @@ export const productData = [
 			{
 				id: "3",
 				img: "desserts3.jpeg",
-				name: "LEMON CHEESECAKE",
-				shortDescription: "Delicate lemon cheesecake",
+				name: "SOFT CHEESECAKE",
+				shortDescription: "Delicate soft delicious cheesecake.",
 				fullDescription:
-					"Delicate lemon infused cheesecake with a mango coulis.",
+					"Delicate soft infused cheesecake with a mango coulis.",
 				ingredientList: [
 					{
 						id: "ingredient-1",
@@ -729,22 +729,22 @@ export const productData = [
 					{
 						id: 2,
 						label: "Total Fat",
-						value: 12,
+						value: 24,
 					},
 					{
 						id: 3,
 						label: "Saturated Fat",
-						value: 3,
+						value: 31,
 					},
 					{
 						id: 4,
 						label: "Trans Fat",
-						value: 0,
+						value: 20,
 					},
 					{
 						id: 5,
 						label: "Cholesterol",
-						value: 0,
+						value: 45,
 					},
 					{
 						id: 6,
@@ -760,18 +760,18 @@ export const productData = [
 					{
 						id: 8,
 						label: "Dietary Fiber",
-						value: 7,
+						value: 27,
 					},
 
 					{
 						id: 9,
 						label: "Sugars",
-						value: 4,
+						value: 54,
 					},
 					{
 						id: 10,
 						label: "Protein",
-						value: 11,
+						value: 14,
 					},
 					{
 						id: 11,
@@ -798,8 +798,8 @@ export const productData = [
 			{
 				id: "4",
 				img: "desserts4.jpeg",
-				name: "GELATO",
-				shortDescription: "Deliciously locally made gelato",
+				name: "STRAWBERRY GELATO",
+				shortDescription: "Deliciously locally made strawberry gelato.",
 				fullDescription: "gelato",
 				ingredientList: [
 					{
@@ -837,22 +837,22 @@ export const productData = [
 					{
 						id: 2,
 						label: "Total Fat",
-						value: 12,
+						value: 16,
 					},
 					{
 						id: 3,
 						label: "Saturated Fat",
-						value: 3,
+						value: 13,
 					},
 					{
 						id: 4,
 						label: "Trans Fat",
-						value: 0,
+						value: 10,
 					},
 					{
 						id: 5,
 						label: "Cholesterol",
-						value: 0,
+						value: 50,
 					},
 					{
 						id: 6,
@@ -868,13 +868,13 @@ export const productData = [
 					{
 						id: 8,
 						label: "Dietary Fiber",
-						value: 7,
+						value: 19,
 					},
 
 					{
 						id: 9,
 						label: "Sugars",
-						value: 4,
+						value: 43,
 					},
 					{
 						id: 10,
@@ -894,7 +894,7 @@ export const productData = [
 					{
 						id: 13,
 						label: "Vitamin C",
-						value: 10,
+						value: 19,
 					},
 					{
 						id: 14,
@@ -916,8 +916,8 @@ export const productData = [
 			{
 				id: "1",
 				img: "drinks1.jpeg",
-				name: "Lemony Lemonade",
-				shortDescription: "lemonade",
+				name: "BANANA Lemonade",
+				shortDescription: "lemonade.",
 				fullDescription: "lemons or limes",
 				ingredientList: [
 					{
@@ -955,12 +955,12 @@ export const productData = [
 					{
 						id: 4,
 						label: "Trans Fat",
-						value: 0,
+						value: 8,
 					},
 					{
 						id: 5,
 						label: "Cholesterol",
-						value: 0,
+						value: 20,
 					},
 					{
 						id: 6,
@@ -976,23 +976,23 @@ export const productData = [
 					{
 						id: 8,
 						label: "Dietary Fiber",
-						value: 7,
+						value: 37,
 					},
 
 					{
 						id: 9,
 						label: "Sugars",
-						value: 4,
+						value: 14,
 					},
 					{
 						id: 10,
 						label: "Protein",
-						value: 11,
+						value: 18,
 					},
 					{
 						id: 11,
 						label: "Vitamin A",
-						value: 10,
+						value: 20,
 					},
 					{
 						id: 12,
@@ -1002,20 +1002,20 @@ export const productData = [
 					{
 						id: 13,
 						label: "Vitamin C",
-						value: 10,
+						value: 16,
 					},
 					{
 						id: 14,
 						label: "Iron",
-						value: 5,
+						value: 7,
 					},
 				],
 			},
 			{
 				id: "2",
 				img: "drinks2.jpeg",
-				name: "Kick Ass Carrot",
-				shortDescription: "Cold pressed juice",
+				name: "Kick Ass STRAWBERRY",
+				shortDescription: "Cold pressed juice.",
 				fullDescription: "",
 				ingredientList: [
 					{
@@ -1043,22 +1043,22 @@ export const productData = [
 					{
 						id: 2,
 						label: "Total Fat",
-						value: 12,
+						value: 22,
 					},
 					{
 						id: 3,
 						label: "Saturated Fat",
-						value: 3,
+						value: 13,
 					},
 					{
 						id: 4,
 						label: "Trans Fat",
-						value: 0,
+						value: 21,
 					},
 					{
 						id: 5,
 						label: "Cholesterol",
-						value: 0,
+						value: 30,
 					},
 					{
 						id: 6,
@@ -1068,29 +1068,29 @@ export const productData = [
 					{
 						id: 7,
 						label: "Total Carbohydrate",
-						value: 20,
+						value: 40,
 					},
 
 					{
 						id: 8,
 						label: "Dietary Fiber",
-						value: 7,
+						value: 19,
 					},
 
 					{
 						id: 9,
 						label: "Sugars",
-						value: 4,
+						value: 34,
 					},
 					{
 						id: 10,
 						label: "Protein",
-						value: 11,
+						value: 19,
 					},
 					{
 						id: 11,
 						label: "Vitamin A",
-						value: 10,
+						value: 30,
 					},
 					{
 						id: 12,
@@ -1100,7 +1100,7 @@ export const productData = [
 					{
 						id: 13,
 						label: "Vitamin C",
-						value: 10,
+						value: 35,
 					},
 					{
 						id: 14,
@@ -1112,7 +1112,7 @@ export const productData = [
 			{
 				id: "3",
 				img: "drinks3.jpeg",
-				name: "Ginger & Lime Kombucha",
+				name: "HONEY & Lime Kombucha",
 				shortDescription: "kombucha stuff",
 				fullDescription: "carbonated bubbles",
 				ingredientList: [
@@ -1146,22 +1146,22 @@ export const productData = [
 					{
 						id: 2,
 						label: "Total Fat",
-						value: 12,
+						value: 24,
 					},
 					{
 						id: 3,
 						label: "Saturated Fat",
-						value: 3,
+						value: 13,
 					},
 					{
 						id: 4,
 						label: "Trans Fat",
-						value: 0,
+						value: 12,
 					},
 					{
 						id: 5,
 						label: "Cholesterol",
-						value: 0,
+						value: 12,
 					},
 					{
 						id: 6,
@@ -1177,23 +1177,23 @@ export const productData = [
 					{
 						id: 8,
 						label: "Dietary Fiber",
-						value: 7,
+						value: 47,
 					},
 
 					{
 						id: 9,
 						label: "Sugars",
-						value: 4,
+						value: 24,
 					},
 					{
 						id: 10,
 						label: "Protein",
-						value: 11,
+						value: 31,
 					},
 					{
 						id: 11,
 						label: "Vitamin A",
-						value: 10,
+						value: 20,
 					},
 					{
 						id: 12,
@@ -1203,7 +1203,7 @@ export const productData = [
 					{
 						id: 13,
 						label: "Vitamin C",
-						value: 10,
+						value: 30,
 					},
 					{
 						id: 14,
@@ -1215,8 +1215,8 @@ export const productData = [
 			{
 				id: "4",
 				img: "drinks4.jpeg",
-				name: "Daily Greens",
-				shortDescription: "Cold pressed juice",
+				name: "Daily ROSE LEMON",
+				shortDescription: "Cold pressed juice.",
 				fullDescription: "all the greens we can find",
 				ingredientList: [
 					{

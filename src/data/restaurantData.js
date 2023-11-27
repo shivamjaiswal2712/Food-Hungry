@@ -17,7 +17,7 @@ export const restaurant = {
     address: [
         {
             id: "Street",
-            value: "04 vice City Colony Main Road",
+            value: "04 vice City Colony, Main Road",
         },
         {
             id: "Pin Code",
@@ -28,18 +28,34 @@ export const restaurant = {
             value: "Nagpur",
         },
         {
+            id: "State",
+            value: "Maharashtra",
+        },
+        {
             id: "Country",
             value: "India",
         },
     ],
-    // links: [
-    //     {
-    //         id: 1,
-    //         link: "https://github.com/shivamjaiswal2712/",
-    //     },
-    //     {
-    //         id: 2,
-    //         link: "https://www.linkedin.com/in/shivam-jaiswal-2ba127226/",
-    //     },
-    // ],
+    links: [
+        {
+            id: 1,
+            icon: "facebook.svg",
+        },
+        {
+            id: 2,
+            icon: "instagram.svg",
+        },
+        {
+            id: 3,
+            icon: "twitter.svg",
+        },
+        {
+            id: 4,
+            icon: "google.svg",
+        },
+        {
+            id: 5,
+            icon: "gmail.svg",
+        }
+    ],
 };
