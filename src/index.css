@@ -144,10 +144,13 @@ footer{
     padding-top: 4px;
 }
 @media only screen and (max-width: 37em){
-    .nav-bar .logo{
+    .nav-bar{
         display:inline-block;
         border-radius: 15px;
         padding-left: 4px;
+    }
+    .logo{
+        display: none;
     }
 }
 .nav-bar ul{
@@ -327,14 +330,14 @@ footer{
     font-weight:900;
     font-size:4rem;
     text-align:center;
-    top:120%
+    top:20%
 }
 .hero-subtitle{
     font-family:"Oleo Script",sans-serif;
     font-weight:regular;
     font-size:1.8rem;
     text-align:center;
-    top:125%
+    top:25%
 }
 .categories h2,.categories h1,.categories p{
     text-align:left
@@ -372,18 +375,18 @@ footer{
 @media(min-width: 550px){
     .categories .category-card{
         display:flex;
-        flex-direction:row
+        flex-direction:row;
     }
     .categories .category-card img,
     .categories .category-card .text-box{
-        width:50%
+        width:50%;
     }
     .categories .category-card .text-box{
         display:grid;
         align-self:center;
         justify-self:center;
         margin:0 auto;
-        max-width:430px
+        max-width:430px;
     }
     .categories .category-card:nth-child(even){
         display:flex;
